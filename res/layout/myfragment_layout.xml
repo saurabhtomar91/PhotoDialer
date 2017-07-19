@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myfrag_callphoto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg" >
+
+    <ImageView
+        android:id="@+id/showimage_imagevie_im1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title" />
+
+    <ImageView
+        android:id="@+id/showimage_imagevie_im"
+        android:layout_width="700dp"
+        android:layout_height="330dp"
+        android:layout_below="@+id/showimage_imagevie_im1"
+        android:layout_marginTop="1dp" />
+
+    <TextView
+        android:id="@+id/showcontact_textview_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/showimage_imagevie_im"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="0dip"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+         />
+
+    <TextView
+        android:id="@+id/showcontact_textview_name_ring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/showcontact_textview_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="0dip"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/showcontact_button_laudspeaker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/showcontact_button_call"
+        android:layout_alignTop="@+id/showcontact_button_call"
+        android:layout_toRightOf="@+id/showcontact_button_call"
+        android:background="@drawable/loudspeaker"
+        android:layout_marginLeft="4dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/showcontact_button_call"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/call"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingRight="20dip"
+        android:text="@string/Call"
+        android:textColor="#ffffff"
+        android:textSize="33sp"
+        android:layout_marginBottom="5sp" 
+        />
+
+    <Button
+        android:id="@+id/btn_edit"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/showcontact_button_call"
+        android:background="@drawable/update"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="12dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/showcontact_button_call"
+        android:layout_alignBottom="@+id/showcontact_button_call"
+        android:layout_toRightOf="@+id/showcontact_button_call"
+        android:background="@drawable/delete"
+        android:layout_marginLeft="10dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+    
+    
+      <Button
+        android:id="@+id/off_button_laudspeaker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/showcontact_button_call"
+        android:layout_alignTop="@+id/showcontact_button_call"
+        android:layout_toRightOf="@+id/showcontact_button_call"
+        android:background="@drawable/speakeroff"
+        android:layout_marginLeft="4dp"
+        android:visibility="gone" />
+    
+    
+</RelativeLayout>

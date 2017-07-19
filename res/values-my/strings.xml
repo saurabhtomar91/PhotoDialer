@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ဓါတ္ပံုျဖင့္ ဖုန္းေခၚ</string>
+    <string name="hello_world">မဂၤလာပါ</string>
+    <string name="menu_settings">ျပင္ဆင္ခ်က္</string>
+    <string name="title_activity_main">ဖုန္းလိပ္စာ</string>
+    <string name="action_settings">xxxxxxxxxr</string>
+    <string name="title_activity_photo">ဓါတ္ပံု</string>
+    <string name="activity_photo">ဖုန္းလိပ္စာကို ဓါတ္ပံု ျဖင့္ထည့္</string>
+    <string name="hnt_et_name">ျပသမည့္ အမည္</string>
+    <string name="hnt_et_mobile">ဖုန္း</string>
+    <string name="str_photo">ဓါတ္ပံု</string>
+    <string name="str_btn_add">ဖုန္းလိပ္စာ ထပ္ထည့္</string>
+    <string name="str_btn_list">ထပ္ထည့္</string>
+    <string name="title_activity_search">ရွာေဖြ</string>
+    <string name="addcontact_Name">အမည္</string>
+    <string name="addcontact_Number">ဖုန္းနံပါတ္ </string>
+    <string name="Contact">ဖုန္းလိပ္စာ</string>
+    <string name="AddContact">ဖုန္းလိပ္စာ ထပ္ထည့္ </string>
+    <string name="Cancel">မလုပ္ပါ </string>
+    <string name="Save">သိမ္းပါ </string>
+    <string name="Call">ဖုန္းေခၚ </string>
+    <string name="UploadPicturesOption">ဓါတ္ပံု ထည့္ရန္ ေရြးခ်ယ္</string>
+    <string name="Howdoyouwanttosetyourpicture">ဓါတ္ပံုကို မည္သည့္ ေနရာမွ ထည့္ခ်င္သနည္း။</string>
+    <string name="Gallery">ပံုျပခန္း</string>
+    <string name="Camera">ကင္မရာ</string>
+    <string name="End">ဖုန္းခ်</string>
+    <string name="Contactissuccessfullyadded">ဖုန္းလိပ္စာထည့္သြင္းၿပီး</string>
+    <string name="Contact_Number_cannot_Left_blank">ဖုန္းနံပါတ္အား အလြတ္ထား၍ မရ</string>
+    <string name="Contact_Name_cannot_Left_blank">ဖုန္းလိပ္စာအား အလြတ္ထား၍ မရ</string>
+    <string name="photo_cannot_Left_blank">ဓါတ္ပံု ေနရာ အလြတ္ ထား၍ မရပါ</string>
+    <string name="Delete_Contact">ဖုန္းလိပ္စာကို ဖ်က္မလား။</string>
+    <string name="Do_you_want_to_delete_this_contact">ဖုန္းလိပ္စာကို ဖ်က္ခ်င္တာ ေသခ်ာလား။</string>
+    <string name="Yes">ဖ်က္ပါ</string>
+    <string name="No">မဖ်က္ပါ </string>
+    <string name="nocontact">ဖုန္းလိပ္စာ မရွိပါ</string>
+    <string name="phonenumberexist">ဖုန္းနံပါတ္ ရွိၿပီးသား</string>
+
+</resources>
